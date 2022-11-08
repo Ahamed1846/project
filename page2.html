@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <button><a href="/index.html" aria-current="page">Home</a></button>
+      <button><a href="/page2.html">CSS Positioning</a></button>
+    </nav>
+    <div id="col">
+      <a class="blk" href="#lg">Learning goals</a><br />
+      <a class="blk" href="#stat">Static Positioning</a><br />
+      <a class="blk" href="#rela">Relative Positioning</a><br />
+      <a class="blk" href="#abs">Absolute Positioning</a><br />
+      <a class="blk" href="#fix">Fixed Positioning</a><br />
+      <a class="blk" href="#zind">Z-index</a><br />
+      <a class="blk" href="#sum">Summary</a>
+    </div>
+    <div id="main">
+      <h1><strong>CSS Positioning</strong></h1>
+      <p>
+        Hey Kalvian,<br /><br />This is a self-paced lesson that focuses on
+        getting started with CSS Positioning.
+      </p>
+      <h1 id="lg">Learning goals</h1>
+      <p>After this lesson,you will know:</p>
+      <ul>
+        <li>Positioning in CSS</li>
+        <li>Types of positioning</li>
+        <li>Z-index</li>
+      </ul>
+      <p>
+        Have you ever opened the same website using different devices? Mobile,
+        laptop,<br />
+        tab, etc.? Have you noticed that despite having a lot of elements like
+        images, <br />texts, headings, etc., the website looks good on all these
+        devices?
+      </p>
+      <p>
+        <img
+          src="https://media1.giphy.com/media/xT0Gqn9yuw8hnPGn5K/giphy.gif?cid=790b7611af7c20bda4cb96f4f1a207a1fddd23ac57cb74c4&rid=giphy.gif&ct=g"
+          alt=""
+        />
+      </p>
+
+      <p>
+        That's because all these elements are placed in a specific position, and
+        no matter <br />how narrow or wide your device is, they get aligned
+        accordingly.<br /><br />
+        Isn't that amazing?🤔🤔<br /><br />To make a website appear almost the
+        same on every device, we need to specify the position property.<br /><br />
+        Positioning allows you to take elements out of normal document flow and
+        make them behave differently, <br />for example, by sitting on top of
+        one another or by always remaining in the same place <br>inside the browser
+        viewport.<br /><br />CSS positioning is an important technique to define
+        how an element will be positioned on a web page.<br /><br />There are 4
+        important types of positioning. They are:
+      </p>
+
+      <ul>
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <li>Fixed</li>
+      </ul>
+      <h1 id="stat">Static Positioning</h1>
+      <p>
+        This is the default positioning method in CSS . By default, the HTML
+        elements are positioned static,<br />
+        meaning the top, right, bottom, and left properties remain unaffected.
+      </p>
+      <br />
+      <h1 id="rela">Relative Positioning</h1>
+      <p>
+        In this positioning method, the HTML elements will be relatively
+        positioned from their normal position.<br />
+        The top, right, bottom, and left properties will be relatively
+        positioned from their normal position.
+      </p>
+      <br />
+      <h1 id="abs">Absolute Positioning</h1>
+      <p>
+        The HTML elements will be positioned according to the nearest positioned
+        ancestor in this positioning<br />
+        method.
+      </p>
+      <br />
+      <h1 id="fix">Fixed Positioning</h1>
+      <p>
+        In this positioning method, the HTML elements will remain the same,
+        i.e., when the page is scrolled, <br />the element will be at the same
+        position it won't change.
+      </p>
+      <br />
+      <h1 id="zind">Z-index</h1>
+      <p>
+        The z-index property controls the vertical stacking order of elements
+        that overlap. <br /> If you have multiple
+        elements overlapping, then the z-index will help you decide<br /> which
+        element should appear physically closer to the user.<br /><br />This
+        property takes a number (without decimals) and uses that number to
+        <br />calculate which elements appear nearer to the user on the Z axis.
+        The higher<br /> the z-index value, the nearer the element is positioned with
+        respect to the user. So, <br />elements will be placed in decreasing
+        order of the Z-index.
+      </p>
+      <img
+        src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/z-index.png" width="700"
+      />
+      <p>
+        Z-index only affects positioned elements. Z-index doesn’t work without a
+        declared position.
+      </p>
+      <h1 id="sum">Summary🗒️</h1>
+      <p>In this lesson, we have learned that:</p>
+      <ul>
+        <li>What is Positioning in CSS ?</li>
+        <li>What are the types of Positioning?</li>
+        <li>Z-index</li>
+      </ul>
+    </div>
+    <hr />
+    <p>Made by kalvian.</p>
+  </body>
+</html>
